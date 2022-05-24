@@ -82,7 +82,7 @@ void loop() {
       // on s'éloigne du virage afin que le robot ne détécte pas autre chose directement après avoir tourné
       
       setSpeed(30, 30);
-      delay(400);         
+      delay(300);         
       setSpeed(40, -40);        // on fait un 90 degré vers la droite
       delay(550);               // puis on s'éloigne du virage
       setSpeed(30, 30);
@@ -275,7 +275,7 @@ if (getSensor(0) > 600 || getSensor(4) > 600) {
 
       if (Direction[q + 1] == 1) {
         setSpeed(30, 30);
-        delay(400);
+        delay(300);
         setSpeed(40, -40);  // tourne à droite
         delay(550);
         setSpeed(30, 30);
@@ -283,7 +283,7 @@ if (getSensor(0) > 600 || getSensor(4) > 600) {
       }
       else if (Direction[q + 1] == 3) {
         setSpeed(30, 30);
-        delay(400);
+        delay(300);
         setSpeed(-40, 40);    // tourne à gauche
         delay(550);
         setSpeed(30, 30);
@@ -303,7 +303,7 @@ if (getSensor(0) > 600 || getSensor(4) > 600) {
       }
       else if (Direction[q + 1] == 2) {
         setSpeed(30, 30);
-        delay(400);
+        delay(300);
         setSpeed(40, -40);    // tourne à droite
         delay(550);
         setSpeed(30, 30);
@@ -311,7 +311,7 @@ if (getSensor(0) > 600 || getSensor(4) > 600) {
       }
       else if (Direction[q + 1] == 0) {
         setSpeed(30, 30);
-        delay(400);
+        delay(300);
         setSpeed(-40, 40);       // tourne à gauche
         delay(550);
         setSpeed(30, 30);
@@ -323,7 +323,7 @@ if (getSensor(0) > 600 || getSensor(4) > 600) {
 
       if (Direction[q + 1] == 1) {
         setSpeed(30, 30);
-        delay(400);
+        delay(300);
         setSpeed(-40, 40);      // tourne à gauche
         delay(550);
         setSpeed(30, 30);
@@ -331,11 +331,11 @@ if (getSensor(0) > 600 || getSensor(4) > 600) {
       }
       else if (Direction[q + 1] == 2) {
         setSpeed (30, 30);        // tout droit
-        delay(400);
+        delay(300);
       }
       else if (Direction[q + 1] == 3) {
         setSpeed(30, 30);
-        delay(400);
+        delay(300);
         setSpeed(40, -40);        // tourne à droite
         delay(550);
         setSpeed(30, 30);
@@ -347,7 +347,7 @@ if (getSensor(0) > 600 || getSensor(4) > 600) {
 
       if (Direction[q + 1] == 2) {
         setSpeed(30, 30);
-        delay(400);
+        delay(300);
         setSpeed(-40, 40);      // tourne à gauche
         delay(550);
         setSpeed(30, 30);
@@ -355,11 +355,11 @@ if (getSensor(0) > 600 || getSensor(4) > 600) {
       }
       else if (Direction[q + 1] == 3) {
         setSpeed (30, 30);          // tout droit
-        delay(400);
+        delay(300);
       }
       else if (Direction[q + 1] == 0) {
         setSpeed(30, 30);
-        delay(400);
+        delay(300);
         setSpeed(40, -40);        // tourne à droite
         delay(550);
         setSpeed(30, 30);
